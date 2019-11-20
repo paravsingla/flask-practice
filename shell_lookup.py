@@ -37,3 +37,9 @@ User.query.filter(User.id > 1).all()
 # from sqlalchemy.sql.expression import not_, or_ 
 
 
+# Relationships
+
+user.posts.all()
+user.posts.order_by(Post.publish_date.desc()).all()
+
+
