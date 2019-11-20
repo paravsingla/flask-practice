@@ -14,6 +14,9 @@ class User(db.Model):
 	def __init__(self, username):
 		self.username = username
 
+	def __repr__(self):
+		return "<User '{}'>".format(self.username)
+
 @app.route('/')
 def home():
 	return 'Hello World!'
