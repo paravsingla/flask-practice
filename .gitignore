@@ -3,7 +3,7 @@
 *.pub
 *.tar.gz
 *.zip
-*.sql
+*.sqlite
 *.db
 secrets.txt
 ./tmp
